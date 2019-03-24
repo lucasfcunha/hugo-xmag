@@ -4,8 +4,8 @@
 <div class="article-meta">
 
   <div class="categories">
-  {{ range $i, $e := .Params.categories }}
-    {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/categories/" $e | urlize) }}">{{ $e }}</a>
+  {{ range $i, $e := .Params.categorias }}
+    {{ if $i }} &hercon; {{ end }}<a href="{{ relURL (print "/categorias/" $e | urlize) }}">{{ $e }}</a>
   {{ end }}
   </div>
 
