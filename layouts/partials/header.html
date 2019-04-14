@@ -28,6 +28,7 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ .Permalink }}" />
 
+    <link rel="canonical" href="{{ .Site.BaseURL }}{{ .URL }}" />
     <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
